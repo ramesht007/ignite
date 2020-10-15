@@ -241,7 +241,7 @@ def function_before_backprop(engine):
 
 </details>
 
-## Out-of-the-box metrics
+## Out-of-the-box metrics:
 
 - [Metrics](https://pytorch.org/ignite/metrics.html#complete-list-of-metrics) for various tasks: 
 Precision, Recall, Accuracy, Confusion Matrix, IoU etc, ~20 [regression metrics](https://pytorch.org/ignite/contrib/metrics.html#regression-metrics).
@@ -268,7 +268,7 @@ F1_mean.attach(engine, "F1")
 <!-- ############################################################################################################### -->
 
 
-# Installation
+# Installation:
 
 From [pip](https://pypi.org/project/pytorch-ignite/):
 
