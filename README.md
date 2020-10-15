@@ -79,7 +79,7 @@ while ensuring maximum control and simplicity
 
 # Why Ignite?
 
-Ignite is a **library** that provides three high-level features:
+Ignite is a **library** that provides three high-level features:-
 
 - Extremely simple engine and event system
 - Out-of-the-box metrics to easily evaluate models
@@ -209,7 +209,7 @@ def run_validation():
 Examples
 </summary>
 
-Custom events related to backward and optimizer step calls:
+Custom events related to backward and optimizer step calls:-
 ```python
 from ignite.engine import EventEnum
 
