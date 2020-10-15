@@ -79,7 +79,7 @@ while ensuring maximum control and simplicity
 
 # Why Ignite?
 
-Ignite is a **library** that provides three high-level features:
+Ignite is a **library** that provides three high-level features:-
 
 - Extremely simple engine and event system
 - Out-of-the-box metrics to easily evaluate models
@@ -209,7 +209,7 @@ def run_validation():
 Examples
 </summary>
 
-Custom events related to backward and optimizer step calls:
+Custom events related to backward and optimizer step calls:-
 ```python
 from ignite.engine import EventEnum
 
@@ -241,7 +241,7 @@ def function_before_backprop(engine):
 
 </details>
 
-## Out-of-the-box metrics
+## Out-of-the-box metrics:
 
 - [Metrics](https://pytorch.org/ignite/metrics.html#complete-list-of-metrics) for various tasks: 
 Precision, Recall, Accuracy, Confusion Matrix, IoU etc, ~20 [regression metrics](https://pytorch.org/ignite/contrib/metrics.html#regression-metrics).
@@ -268,7 +268,7 @@ F1_mean.attach(engine, "F1")
 <!-- ############################################################################################################### -->
 
 
-# Installation
+# Installation:
 
 From [pip](https://pypi.org/project/pytorch-ignite/):
 
